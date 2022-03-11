@@ -1,0 +1,76 @@
+/*This styles the header and footer container elements with shared background color and text alignment.*/
+header, footer{
+  background-color: #4387c7;
+  text-align: center;
+  font-family: Roboto, Sans-serif;
+}
+
+/*This also removes the white space from the top by adjusting the top margin to a negative number.*/
+header{
+  margin-top: -34px;
+}
+
+/*This styles the main container element by declaring background colors, the margin, the text alignment, and typeface. This also removes the white space from the top by adjusting the top margin to a negative number. The added padding also removes the white space between the main container and the footer container.*/
+main{
+  background-color: #ebebeb;
+  margin: auto;
+  margin-top: -16px;
+  padding: 1px;
+  text-align: center;
+  font-family: Roboto, Sans-serif;
+}
+
+
+/*The different font sizes for the below elements are declared below. The largest size should be h1. The text is aligned to the left for text that is not found in the header or footer. */
+h1{
+  font-size: 50px;
+}
+
+h2, h3{
+   font-size: 20px;
+}
+
+h3{
+  text-align: left
+}
+
+p, a, ol, ul {
+  font-size: 18px;
+  text-align: left;
+}
+
+/*This adjusts the section size. */
+section{
+  width: 500px;
+  margin: auto;
+}
+
+/*This creates a space between the image and the header. It also adjusts the size.*/
+img{
+  margin-top:15px;
+  width:300px;
+}
+
+/*The horizontal ruler's properties are declared below. This rule sets the horizontal ruler as wide as the text above it. It also makes it appear as a blue block with a matching border color. */
+hr{
+  width: 100%;
+  height:5px;
+  background-color: #4387c7;
+  border-color: #4387c7;
+}
+
+/*This changes the colors of the links when the user interacts with them in the following ways: original  blue, visited link- darkest blue, hovered over the link-light blue, actively clicking on the link-darker blue. */
+a:link { color: #0056d6;}
+a:visited {color: #002e7a;}
+a:hover {color: #a8c6fe;}
+a:active {color: #3a88fe;}
+
+/*This widens the footer for aesthetic reasons.*/
+footer{
+  padding: 1px;
+  margin-bottom:-30;
+}
+
+
+
+
